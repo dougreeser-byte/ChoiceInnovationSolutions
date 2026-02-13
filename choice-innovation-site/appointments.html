@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointments | Choice Innovation Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Book an Appointment</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="payments.html">Payments</a>
+        <a href="admin.html">Admin</a>
+    </nav>
+</header>
+
+<section class="content">
+    <h2>Schedule Your Consultation</h2>
+
+    <form id="appointmentForm">
+        <label>Name</label>
+        <input type="text" id="name" required>
+
+        <label>Email</label>
+        <input type="email" id="email" required>
+
+        <label>Select Date</label>
+        <input type="date" id="date" required>
+
+        <label>Select Time</label>
+        <input type="time" id="time" required>
+
+        <button type="submit" class="cta">Book Appointment</button>
+    </form>
+
+    <p id="appointmentMessage"></p>
+</section>
+
+<script src="js/appointments.js"></script>
+
+</body>
+</html>
